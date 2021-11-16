@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>10B</title>
+    <link rel="stylesheet" type="text/css" href="styletable.css">
+
+</head>
+<body>
+
+    <h1>Tables and Forms</h1>
+
+    <table>
+        <caption>numbers</caption>
+        <tr>
+            <th colspan="3">this is the title</th>     
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+    </table>
+
+    <form action="https://www.w3schools.com/action_page.php">
+        
+        First name: <input type ="text" name="first_name" required/>
+        <br>
+        Last name: <input type ="text" name="last_name" required/>
+        <br>
+        Email: <input type ="text" name="email" required/>
+        <br>
+        Description: <br>
+         <textarea rows ="4" cols ="80" name="description"></textarea>
+         <br>
+         Gender: <select name="gender">
+                <option value ="Female" selected>Female</option>
+                <option value="Male">Male</option>
+                <option value="Other">Other</option>
+         </select>
+         <br>
+         <input type="checkbox" name="newsletter" value="on"> Subscribe to newsletter?
+         <br>
+         <input type="submit" name="submit" value="Add New User">
+
+    </form>
+
+</body>
+</html> 
