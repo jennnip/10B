@@ -1,0 +1,33 @@
+table,th,td {
+    border:1px solid black;
+    margin:3%;
+    border-collapse: collapse;
+}
+
+h1 {
+    margin:3%;
+}
+
+
+form {
+    margin:3%;
+}
+
+input {
+    padding:4px;
+    margin:5px;
+}
+
+textarea {
+    margin:5px;
+}
+
+select {
+    margin:5px;
+}
+
+body{
+    background-color:rgb(172, 199, 204);
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
